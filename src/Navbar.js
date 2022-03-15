@@ -23,13 +23,13 @@ const NavBar = () => {
           </Grid>
 
           <Grid item>
-            <Button variant="contained" color="primary" justifyContent="right" href="/">
+            <Button variant="contained" color="primary" justifyContent="right" href="/charcuttes/">
             Home
             </Button>
-            <Button variant="contained" color="primary" justifyContent="right" href="/about">
+            <Button variant="contained" color="primary" justifyContent="right" href="/charcuttes/about">
             About
             </Button>
-            <Button variant="contained" color="primary" justifyContent="right" href="/team">
+            <Button variant="contained" color="primary" justifyContent="right" href="/charcuttes/team">
             Team
             </Button>
           </Grid>
