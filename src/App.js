@@ -17,15 +17,14 @@ class App extends Component {
 
       <Router>
         <Navbar />
-        <Routes>
-<<<<<<< HEAD
-          <Route exact path="/charcuttes/" element={<Home/>}/>
-=======
-          <Route exact path="/charcuttes" element={<Home/>}/>
->>>>>>> bd54373332d5e91d029d2c19d00f5ebfd368e795
-          <Route exact path="/charcuttes/about" element={<About/>}/>
-          <Route exact path="/charcuttes/team" element={<Team/>}/>
-        </Routes>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <Routes>
+            <Route exact path="/charcuttes/" element={<Home/>}/>
+            <Route exact path="/charcuttes/about" element={<About/>}/>
+            <Route exact path="/charcuttes/team" element={<Team/>}/>
+          </Routes>
+        </BrowserRouter>
+
       </Router>
     );
   }
