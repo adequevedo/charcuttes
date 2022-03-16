@@ -7,36 +7,36 @@ import Grid from '@material-ui/core/Grid'
 
 
 const NavBar = () => {
-  return(
-    <div>
-    <AppBar position="static">
-      <Toolbar>
-        <Grid
-        justify="space-between"
-        container
-        spacing={24}
-        >
-          <Grid item>
-            <Typography variant="title" color="inherit">
+	return(
+		<div>
+			<AppBar position="static">
+				<Toolbar>
+					<Grid
+						justify="space-between"
+						container
+						spacing={24}
+					>
+						<Grid item>
+							<Typography variant="title" color="inherit">
             Figs & Jellies
-            </Typography>
-          </Grid>
+							</Typography>
+						</Grid>
 
-          <Grid item>
-            <Button variant="contained" color="primary" justifyContent="right" href="/charcuttes/">
+						<Grid item>
+							<Button variant="contained" color="primary" justifyContent="right" href="/charcuttes/">
             Home
-            </Button>
-            <Button variant="contained" color="primary" justifyContent="right" href="/charcuttes/about">
+							</Button>
+							<Button variant="contained" color="primary" justifyContent="right" href="/charcuttes/about">
             About
-            </Button>
-            <Button variant="contained" color="primary" justifyContent="right" href="/charcuttes/team">
+							</Button>
+							<Button variant="contained" color="primary" justifyContent="right" href="/charcuttes/team">
             Team
-            </Button>
-          </Grid>
-        </Grid>
-      </Toolbar>
-    </AppBar>
-    </div>
-  )
+							</Button>
+						</Grid>
+					</Grid>
+				</Toolbar>
+			</AppBar>
+		</div>
+	)
 }
-export default NavBar;
+export default NavBar
