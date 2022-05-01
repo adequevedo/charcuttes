@@ -13,3 +13,5 @@
 - Nail down color schemes
 - write unit test and run with actions
 - set up linter
+- try deployment to GCP 
+- Setup terraform for GCP infra
